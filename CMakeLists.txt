@@ -4,7 +4,17 @@ project(Datastruktur VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
+include(FetchContent)
+
+FetchContent_Declare(json
+    GIT_REPOSITORY https://github.com/nlohmann/json.git
+    GIT_TAG v3.11.2
+)
+
+FetchContent_MakeAvailable(json)
+
 add_executable(Datastruktur main.cpp)
+target_link_libraries(Datastruktur PRIVATE nlohmann_json::nlohmann_json)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

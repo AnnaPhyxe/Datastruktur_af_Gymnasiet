@@ -7,6 +7,7 @@
 #include "Elever.h"
 
 #include <string>
+#include <nlohmann/json.hpp>
 
 class Ansatte : public KontaktOplysninger, Stilling, GrundlæggendeOplysninger, Transport, Elever
 {
@@ -22,6 +23,8 @@ public:
     std::string kurser;
     Transport transport;
     Elever::GYMNASIE gymnasie_type;
+
+    nlohmann::json toJSON();
 
 private:
 
