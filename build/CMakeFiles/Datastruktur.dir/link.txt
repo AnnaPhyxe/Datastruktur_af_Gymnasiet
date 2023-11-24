@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Datastruktur.dir/objects.a
+C:\Users\annab\scoop\apps\mingw\current\bin\ar.exe qc CMakeFiles\Datastruktur.dir/objects.a @CMakeFiles\Datastruktur.dir\objects1.rsp
+C:\Users\annab\scoop\apps\mingw\current\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Datastruktur.dir/objects.a -Wl,--no-whole-archive -o Datastruktur.exe -Wl,--out-implib,libDatastruktur.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Datastruktur.dir\linkLibs.rsp

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/annab/Downloads/Datastruktur/Datastruktur/build",
+  "command": "C:\\Users\\annab\\scoop\\apps\\mingw\\current\\bin\\g++.exe   -g -o CMakeFiles\\Datastruktur.dir\\main.cpp.obj -c C:\\Users\\annab\\Downloads\\Datastruktur\\Datastruktur\\main.cpp",
+  "file": "C:/Users/annab/Downloads/Datastruktur/Datastruktur/main.cpp",
+  "output": "CMakeFiles/Datastruktur.dir/main.cpp.obj"
+}
+]
